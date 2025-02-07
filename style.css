@@ -1,0 +1,349 @@
+body{
+    background-color: rgb(121, 120, 120);
+}
+header{
+    background-color: white;
+    height: 5em;
+    width: 101.05%;
+    margin-left: -0.5em;
+    margin-top: -1.2em;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.deconnection{
+    padding-right: 63%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 3%;
+}
+.text-header{
+    margin-right: 2%;
+}
+.form-connection{
+    margin-top: 15%;
+}
+.text-index{
+    font-size: 150%;
+}
+.champ-index{
+    margin-top: 1%;
+    padding-right: 3%;
+    margin-bottom: 2%;
+}
+.container-form-crea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+.container-form-crea1,
+.container-form-crea4{
+    border-bottom: 1px solid black;
+}
+.container-form-crea3{
+    margin-top: 5%;
+}
+.container-form-crea4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -13%;
+}
+.suppr{
+margin-bottom: 35%;
+}
+.container-form-crea1,
+.container-form-crea2,
+.container-form-crea31 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 2%;
+}
+.container-form-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: -10%;
+}
+.form-menu{
+    padding-left: 7%;
+}
+.container-form-crea3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.form-categorie-add,
+.form-categorie-delete,
+.form-ingredient-add,
+.form-ingredient-delete{
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.form-plat-delete{
+    margin-top: 10%;
+    padding-left: 3%;
+}
+footer{
+    background-color: white;
+    height: 3em;
+    width: 101.05%;
+    margin-left: -0.5em;
+    margin-top: 11.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.text-footer1{
+    margin-bottom: -1%;
+}
+
+
+
+label{
+    display: block;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+label{
+    position: relative;
+
+
+}
+
+.select-champ{
+    display: block;
+    width: 110%;
+    font-size: 16px;
+    font-weight: 700;
+    text-indent: 10px;
+    height: 40px;
+    -webkit-appearance: none;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 30px;
+}
+.input-menu{
+    padding-right: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.bouton-menu{
+    width: 90%;
+    margin-top: 3%;
+}
+.select-menu{
+    display: flex;
+    flex-direction:column;
+}
+.input-champ-2{
+    display: block;
+    width: 85%;
+    font-size: 16px;
+    font-weight: 700;
+    text-indent: 10px;
+    height: 40px;
+    -webkit-appearance: none;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 30px;
+}
+.input-champ{
+    display: block;
+    width: 110%;
+    font-size: 16px;
+    font-weight: 700;
+    text-indent: 10px;
+    height: 40px;
+    -webkit-appearance: none;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 30px;
+}
+.champ-index{
+    display: block;
+    width: 110%;
+    font-size: 16px;
+    font-weight: 700;
+    text-indent: 10px;
+    height: 40px;
+    -webkit-appearance: none;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 30px;
+}
+.champ-index2{
+    display: block;
+    width: 110%;
+    font-size: 16px;
+    font-weight: 700;
+    text-indent: 10px;
+    height: 40px;
+    -webkit-appearance: none;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 30px;
+}
+.add-menu{
+    font-size: 140%;
+}
+.select-champ-2{
+    display: block;
+    width: 87%;
+    font-size: 16px;
+    font-weight: 700;
+    text-indent: 10px;
+    height: 40px;
+    -webkit-appearance: none;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 30px;
+}
+.select-champ-3{
+    display: block;
+    width: 87%;
+    font-size: 16px;
+    font-weight: 700;
+    text-indent: 10px;
+    height: 80px;
+    -webkit-appearance: none;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 30px;
+}
+.select-champ-4{
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    text-indent: 10px;
+    height: 40px;
+    -webkit-appearance: none;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 30px;
+}
+.formulaire-connection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+}
+.form-index{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.8%;
+    margin-left: -25%;
+    flex-wrap: wrap;
+}
+.form-menu-delete{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bouton-creation{
+    margin-top: 5%;
+}
+.form-ajout-plat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.label-categorie{
+    font-size:150%;
+    padding-top: 3%;
+}
+.bouton-plat{
+    margin-top: 3%;
+    width: 20%;
+    margin-bottom: 35%;
+}
+.container-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.nom_menu {
+    font-size: 150%;
+    margin-bottom: 10px;
+}
+
+.prix_menu {
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+
+.plat {
+    font-size: 110%;
+    margin-bottom: 10px;
+}
+
+.image-nom {
+    list-style-type: none;
+    padding: 0;
+}
+
+.image-plat {
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 100%;
+    margin-top: 10px;
+}
+
+.container-plat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Permet de ranger les plats en ligne */
+}
+
+.plat {
+    display: flex;
+    flex-direction: row; /* Les informations des plats restent en ligne */
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.image-plat {
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.nom_menu {
+    font-size: 150%;
+    margin-right: 3%;
+}
+
+.image-nom {
+    margin-right: 3%;
+}
